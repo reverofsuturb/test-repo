@@ -1,0 +1,17 @@
+/* Below are the order of specificity rule which has precedence respectively:
+1) Inline style: Inline style has highest priority among all.
+2) Id Selector: It has second highest priority.
+3) Classes, pseudo-classes and attributes: These selectors has lowest priority.
+
+Apart from this we have few more which has priority based on css imports :
+
+Internal style
+External CSS
+Inline style */
+
+
+section {
+  background-color: blue;
+  border: 5px solid black;
+  color: white;
+}
